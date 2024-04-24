@@ -40,6 +40,9 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+# Json file
+config.json
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
@@ -125,6 +128,8 @@ celerybeat.pid
 
 # Environments
 .env
+.env.dev
+.env.prod
 .venv
 env/
 venv/
